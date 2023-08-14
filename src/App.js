@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Currency from './components/Currency';
 import { AppProvider } from './context/AppContext';
 import Budget from './components/Budget';
 import ExpenseTotal from './components/ExpenseTotal';
@@ -24,7 +24,7 @@ const App = () => {
                         <ExpenseTotal />
                     </div>
                     <div className='col-sm'>
-                        <currency />
+                        <Currency />
                     </div>
                 </div>
                 <h3 className='mt-3'>Allocation</h3>
